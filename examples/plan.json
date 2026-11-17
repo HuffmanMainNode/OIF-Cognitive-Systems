@@ -1,0 +1,12 @@
+{
+  "goal": "Produce a source-backed technical comparison",
+  "steps": [
+    {"id": "collect", "description": "Collect source material", "depends_on": []},
+    {"id": "extract", "description": "Extract comparable claims", "depends_on": ["collect"]},
+    {"id": "verify", "description": "Check claims against independent evidence", "depends_on": ["extract"]},
+    {"id": "synthesize", "description": "Write bounded conclusions", "depends_on": ["verify"]}
+  ],
+  "conclusions": [
+    {"id": "c1", "text": "Example conclusion", "status": "hypothesis", "evidence_ids": []}
+  ]
+}
